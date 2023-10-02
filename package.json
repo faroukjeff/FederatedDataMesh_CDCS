@@ -1,0 +1,28 @@
+{
+  "name": "keygen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@digitalbazaar/ed25519-signature-2018": "^4.0.0",
+    "@digitalbazaar/ed25519-signature-2020": "^5.2.0",
+    "@digitalbazaar/ed25519-verification-key-2018": "^4.0.0",
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.1.0",
+    "@digitalbazaar/vc": "^6.0.1",
+    "@digitalbazaar/x25519-key-agreement-key-2020": "^3.0.1",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "crypto-ld": "^7.0.0",
+    "express": "^4.18.2",
+    "jose": "^4.14.4",
+    "jsonld-document-loader": "^2.0.0",
+    "jsonld-signatures": "^11.2.1",
+    "jws": "^4.0.0"
+  }
+}
